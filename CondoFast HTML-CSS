@@ -1,0 +1,235 @@
+HTML
+
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet"/>
+</head>
+
+<body>
+    <header>
+        <div class ="center">
+            <div class="logo">
+                <h2>CondoFast</h2>
+            </div>
+            <div class="menu">
+                <a href ="#">
+                    Home
+                </a>
+                <a href ="#">
+                    Serviços
+                </a>
+                <a href ="#">
+                    Contato
+                </a>
+                <a class="btn-menu" href ="#">
+                    Minha Conta
+                </a>
+            </div>
+
+    </header>
+    <section class="main"> <!-- Menu principal / introdução-->
+        <div class="center">
+            <div class="main_cta">
+                <h2>CondoFast</h2>
+                <i><p>Construindo sempre o melhor lugar<br>para o seu bem-estar.</p></i>
+                <button>Faça Parte!</button>
+            </div>
+            <div class="diferenciais" >
+                <div class="diferencial-single">
+                    <center><i class="fa-solid fa-person-circle-check"></i></center>
+                    <center><h2>Segurança</h2></center>
+                    <center><i><p>  Um ambiente mais seguro para você e sua familia,<br>cuidaremos aos toques para que<br>possam desfrutar do melhor da vida.</p></i></center>
+            </div>
+            <div class="diferencial-single">
+                <center><i class="fa-solid fa-shield-heart"></i></center>
+                <center><h2>Bem-Estar</h2></center>
+                <center><i><p>A CondoFast cuidará para que seu condomínio<br>seja o mais agradável para você, priorizamos a praticidade e<br> comodidade de nossos clientes.</p></i></center>
+            </div>
+            <div class="diferencial-single">
+                <center><i class="fa-solid fa-people-roof"></i></center>
+                <center><h2>Comunidade</h2></center>
+                <center><i><p>Seja notificado de todas as novidades que acontece<br> no condominio, receba atualizações frequentes do dia a dia,<br>tenha um contato mais rápido com a administração, portaria e outros moradores.</p></i></center>
+            </div>
+        </div>
+    </section><!-- Menu principal / introdução-->
+
+    <section class="sobre"> <!-- Sobre a CondoFast-->
+        <div class="center">
+            <div class ="container">
+                <img src="imagem/trabFinal.jpg"width="530" height="360">
+                <p>Síndico,<br>Melhore a gestão,<br>ganhe tempo,<br> economize gastos.</p>
+            </div>
+            <div class="chamada-sobre">
+                <h2>Sobre nós!</h2>
+                <center><p>Somos a CondoFast, atuamos nesse mercado com o objetivo de melhorar a forma de se viver em condomínios,<br> sabemos de muitas situações que poderiam ser mais práticas<br> e rápidas de se resolver, 
+                queremos garantir que você esteja feliz no lugar que vive, nós pegamos as dores de nossos clientes,<br> procuramos a melhor solução para ele e então fazemos acontecer, sempre da forma mais confiavel e prática possivel. </p></center>
+            </div>
+        </div>
+
+    </section> <!-- Sobre a CondoFast-->
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="https://kit.fontawesome.com/4ea9f4c152.js" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+---------------------------------------------------------------------------------------------
+CSS
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.center {
+    max-width: 1100ox;
+    margin:0 auto;
+    padding:0 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header{
+    background-color: rgb(244, 242, 250);
+    padding: 30px 0;
+    border-bottom: 2px solid slateblue;
+}
+.logo {
+    color: slateblue;
+    
+}
+.logo h2{
+    font-weight: normal;
+    font-size: 30px;
+    border: 2px solid slateblue;
+    padding: 6px 12px;
+    
+}
+
+.menu {
+    width:80%;
+    text-align: right;
+}
+
+.menu a{
+    color:rgb(90, 74, 196);
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 35px;
+}
+.menu a:hover{
+    color: rgb(145, 77, 255);
+}
+.menu .btn-menu {
+    background-color: rgb(210, 206, 233);
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 5px;
+}
+.menu .btn-menu:hover{
+    background-color: rgb(204, 196, 255);
+    color: white;
+}
+
+section .main{
+    padding: 100px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main_cta {
+    width: 100%;
+    text-align: center;
+    margin: 60px;
+}
+.main_cta h2{
+    color: slateblue;
+    font-size: 50px;
+    
+}
+.main_cta button {
+    color:rgb(90, 74, 196);
+    background-color: rgb(239, 236, 255);
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 6px;
+    border: 0;
+    font-size: 17px;
+    cursor:pointer;
+}
+.diferenciais {
+    display:flex;
+    margin:0 auto;
+    padding:0 2%;
+    display: flex;
+}
+.diferencial-single{
+    border-radius: 12px;
+    background-color: rgb(240, 238, 252);
+    width: 33%;
+    margin-right: 1%;
+    padding: 50px 20px;
+}
+
+.diferencial-single i{
+    color:rgb(90, 74, 196);
+    font-size: 17px;
+}
+.diferencial-single h2{
+    color:rgb(54, 43, 122);
+    margin: 10px 0;
+}
+section .sobre {
+    padding: 80px 0;
+}
+.container {
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.container p {
+   color: rgb(42, 31, 70);
+   text-transform: uppercase;
+   font-size: 65px;
+   font-family:Arial Black;
+   display: inline-block;
+   vertical-align: top;
+   text-align:left;
+   padding-left: 30px;
+}
+.chamada-sobre{
+    width: 100%;
+    text-align: center;
+}
+.chamada-sobre h2{
+    color:rgb(90, 74, 196);
+    text-transform: uppercase;
+    padding-top: 90px;
+}
+.chamada-sobre p{
+    font-size: 15px;
+    color: grey;
+    margin: 10px 0;
+}
+.conteudo-sobre {
+    display:flex;
+}
+.conteudo-sobre p{
+    margin: 0 20px;
+}
